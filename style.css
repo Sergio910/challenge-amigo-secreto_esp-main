@@ -1,10 +1,10 @@
 :root {
     --color-primary: #7D0A0A;
     --color-secondary: #EAD196;
-    --color-tertiary: #F3EDC8;
+    --color-tertiary: #ebc64d;
     --color-button: #BF3131;
     --color-button-hover: #e55720;
-    --color-text: #444444;
+    --color-text: #a50f0f;
     --color-white: #FFFFFF;
 }
 
@@ -97,7 +97,7 @@ body {
     flex: 1;
     padding: 10px 15px;
     font-size: 16px;
-    border: 2px solid #333;
+    border: 2px solid #3b3a3a;
     border-right: none;
     border-radius: 25px 0 0 25px;
     font-family: "Merriweather", serif;
@@ -135,9 +135,10 @@ ul {
 }
 
 .result-list {
+    background-color: #a1a1a1;
     margin-top: 15px;
-    color: #05DF05;
-    font-size: 22px;
+    color: #077507;
+    font-size: 32px;
     font-weight: bold;
     text-align: center;
 }
